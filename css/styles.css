@@ -425,9 +425,47 @@ img{
    margin-left: auto;
    margin-right: auto;
 }
+.services::before {
 
+    display: block;
+    content: "";
+    height: 120px;
+    background-size: 100px 25 px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 
+}
 
+.icon-details::before {
+    background-image: url('../image/antenna\ 1.svg');
+}
+
+.icon-punctuality::before {
+    background-image: url('../image/clock\ 1.svg');
+}
+
+.icon-planning::before {
+    background-image: url('../image/diagram\ 1.svg');
+}
+
+.icon-technologies::before {
+    background-image: url('../image/astronaut\ 1.svg');
+}
+
+.busines {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40));
+    height: 600px;
+    max-width: 1600px;
+    background-image: url('../image-portfolio/фон.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
