@@ -1,0 +1,503 @@
+
+:root {
+    --prinory-text-color:#212121;
+    --accent-color:#757575;
+    --logo-color:#000000;
+    --tetriory-color:#ffffff;
+    --prinory-backround-color:#F5F4FA;
+    --accent-backround-color:#ffffff;
+    --title-backround-color:#2f303a;
+    --button-backround-color:#2196f3;
+    --accent-lin-color:#2196F3;
+  
+}
+
+body{
+    font-family:'Roboto',sans-serif;
+    color: var(--prinory-text-color);
+     font-style: normal;
+     line-height: 1.5;
+     
+}
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.link-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--accent-lin-color);
+    margin-right: 94px;
+}
+.port{
+        color: var(--logo-color);
+}
+
+
+
+.header {
+    
+    background-color: var(--accent-backround-color)  ;
+    border-bottom: 1px solid #ececec;
+}
+
+.heder-content{
+
+    display: flex;
+
+}
+
+
+
+.heder-list{
+display:flex;
+align-items: center;
+
+}
+
+.list-heder{
+list-style: none;
+display:flex;
+align-items: center;
+margin-left: auto;
+gap: 50px;
+
+
+  }
+
+.men-title{
+    background-color: var(--title-backround-color);
+     text-align: center;
+     align-items: center;
+     padding-top: 200px ;
+     padding-bottom: 200px;
+}
+.title {
+    
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 696px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--tetriory-color);
+}
+
+
+.link{
+    text-decoration: none;
+}
+
+.link{
+        font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+      }
+.list-image {
+        list-style: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--prinory-text-color);
+          
+        margin-left: -30px;
+        margin-bottom: -30px;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+
+
+.list-card{
+    
+    margin-left:  30px;
+    margin-bottom: 30px;
+    flex-basis: calc(100%/3-30);
+     
+    
+}
+
+
+
+.link-list{
+    text-decoration: none;
+     color:var(--prinory-text-color);
+     display: block;
+     padding-top: 32px;
+     padding-bottom: 32px;
+}
+   
+.link-list:hover,
+.link-list:focus{
+    color: var(--accent-lin-color)
+
+}
+.link-list.current{
+    color: var(--accent-lin-color);
+    display: block;
+
+    padding-top: 32px;
+    padding-bottom:32px;
+}
+
+.link-list-contacts{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+
+    display: block;
+   
+
+}
+
+.link-list-contacts:hover,
+.link-list-contacts:focus {
+   color: var(--accent-lin-color);
+}
+
+
+
+.list{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 50px; 
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+    
+      
+}
+.list-menu{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 8px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+.text {
+padding:20px 24px ;
+border-right: 1px solid #EEE;
+border-bottom: 1px solid #EEE;
+border-left: 1px solid #EEE;
+}
+
+
+
+
+
+.comanda-list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 30px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.nav-list{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        color: var(--prinory-text-color);
+
+        
+}
+
+
+
+.mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+   
+}
+
+.mail:hover,
+.mail:focus{
+    color: var(--accent-lin-color);
+}
+
+
+.contact-number{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+
+
+
+.button-service{
+   
+     display: block;
+     margin: auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--tetriory-color);
+    background-color: var(--button-backround-color);
+    
+}
+.list-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--prinory-text-color);
+    background-color: var(--prinory-backround-color);
+    padding:6px 22px ;
+    gap: 8px;
+    border-radius: 4px;
+
+}
+
+.list-button:hover,
+.list-button:focus {
+    color: var(--tetriory-color);
+    background-color: var(--button-backround-color);
+}
+
+.list-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--prinory-text-color);
+    margin-bottom:10px; 
+
+
+
+}
+.list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+img{
+    display: block;
+}
+
+
+
+.list-portfolio{
+    text-decoration:none ;
+    list-style: none;
+    width: 370px;
+    display: block;
+    
+    
+}
+ 
+.list-porf {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--prinory-text-color);
+    margin-bottom: 4px;
+}
+.list-phase {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.work{
+    
+    margin-bottom: 50px;
+
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.2;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: var(--prinory-text-color);
+    
+}
+.list-work{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--prinory-text-color);
+    gap: 30px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+
+
+
+
+.list-services{
+    
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 30px;
+}
+
+.services{
+    width: 270px;
+}
+.comanda{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list-comanda{
+  font-weight: 500; 
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+   color: var(--prinory-text-color);
+   margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.tem{
+    background-color: var(--prinory-backround-color);
+
+}
+
+
+.container{
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-work{
+    padding-bottom: 94px;
+}
+
+.list-profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+  
+
+
+
+
+
+}
+.list-foto{
+     width: 370px;
+
+    
+ }
+ 
+
+.foto-work{
+    width: 270px;
+    
+  
+}
+
+.address-nov{
+        font-style: normal;
+         font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--tetriory-color);
+        margin-top: 28px;
+}
+footer{ 
+   
+    background-color: var(--title-backround-color);
+    color: var(--tetriory-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.port-footer{
+    color: var(--tetriory-color);
+}
+
+.adress-link{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+}
