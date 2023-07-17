@@ -399,6 +399,7 @@ img{
 .comanda{
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 
 .list-comanda{
@@ -484,9 +485,9 @@ img{
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    
     text-align: center;
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 16px;
   
 }
 
@@ -505,7 +506,8 @@ img{
 .social-list {
     display: flex;
     list-style: none;
-
+    padding-left:30px ;
+    padding-right:32px ;
 
 }
 
@@ -517,7 +519,7 @@ img{
 
 }
 
-.icon.icon-social {
+.icon-social {
 
     width: 20px;
     height: 20px;
@@ -526,7 +528,8 @@ img{
 }
 
 
-.icon-social:hover {
+.icon-social:hover
+.icon-social:focus {
     color: #2196F3;
 
 
@@ -564,6 +567,7 @@ img{
 }
 /*Постійні клієнти*/
 .customers-list {
+    max-width: 1600px;
     display: flex;
     list-style: none;
     gap: 30px;
