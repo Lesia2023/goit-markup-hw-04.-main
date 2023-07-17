@@ -488,12 +488,58 @@ img{
     text-align: center;
     border-radius: 0px 0px 4px 4px;
   
+}
+
+/*Соціальні  мережі*/
+.sociallink {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
 
 
+}
+
+.social {
+
+    margin-left: 10px;
 
 
 
 }
+
+.icon.icon-social {
+
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+
+}
+
+
+.icon-social:hover {
+    color: #2196F3;
+
+
+}
+
+
+
+
+
+
+
+
+
 .list-foto{
      width: 370px;
 
@@ -516,6 +562,44 @@ img{
         color: var(--tetriory-color);
         margin-top: 28px;
 }
+/*Постійні клієнти*/
+.customers-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-bottom: 94px;
+
+}
+
+.customer-logo {
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#AFB1B8 ;
+}
+
+.customer {
+    display: flex;
+}
+
+
+.logo-icon {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+
+
+
+
+
+
 footer{ 
    
     background-color: var(--title-backround-color);
@@ -539,3 +623,4 @@ footer{
         display: flex;
         flex-direction: column;
 }
+
