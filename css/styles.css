@@ -271,9 +271,13 @@ border-left: 1px solid #EEE;
 }
 
 .icon-envelope{
+    width: 16px;
+    height: 12px;
     color:red ;
 }
  .icon-smartphone{
+    width: 10px;
+    height: 16px;
     color: rgb(0, 255, 34);
  }
 
