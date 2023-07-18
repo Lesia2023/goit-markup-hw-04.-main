@@ -270,7 +270,14 @@ border-left: 1px solid #EEE;
     color: var(--accent-color);
 }
 
+.icon-envelope{
+    color:red ;
+}
+ .icon-smartphone{
+    color: rgb(0, 255, 34);
+ }
 
+ 
 
 
 .button-service{
