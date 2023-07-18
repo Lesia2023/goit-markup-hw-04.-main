@@ -268,6 +268,8 @@ border-left: 1px solid #EEE;
     line-height: 1.4;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+    display: flex;
 }
 
 .icon-envelope{
@@ -278,7 +280,7 @@ border-left: 1px solid #EEE;
  .icon-smartphone{
     width: 10px;
     height: 16px;
-    
+
    
  }
 
