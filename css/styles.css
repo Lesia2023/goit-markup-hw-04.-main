@@ -529,7 +529,7 @@ img{
 .sociallink {
     width: 44px;
     height: 44px;
-    /*background-color:#ffffff;*/
+    background-color:#ffffff;
     color: #AFB1B8;
     border-radius: 50%;
     display: flex;
@@ -546,7 +546,8 @@ img{
 
 }
 .sociallink:hover{
-  background-color: #2196F3;
+ background-color: #2196F3;
+ 
 }
 .social {
 
@@ -560,13 +561,16 @@ img{
 
     width: 20px;
     height: 20px;
-   fill: currentColor;
+    color: #AFB1B8;
 
 }
 
-
+.icon-social{
+    fill:currentColor;
+}
 .icon-social:hover {
-    color: #2196F3;
+   
+    color:#ffffff;
 
 
 }
@@ -631,9 +635,11 @@ img{
 .logo-icon {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;
+    fill:currentColor;
 }
-
+.logo-icon:hover{
+color: #2196F3;
+}
 
 
 
@@ -663,4 +669,3 @@ footer{
         display: flex;
         flex-direction: column;
 }
-
