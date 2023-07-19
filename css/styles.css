@@ -167,10 +167,18 @@ gap: 50px;
     letter-spacing: 0.02em;
     color: #757575;
     display: block;
-
-    
+   
    }
 
+
+
+
+   
+.link-list-contacts.icon{
+    display: block;
+    color: #757575;
+    margin-right: 10px;
+}
 
 
 
