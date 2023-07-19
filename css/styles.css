@@ -63,6 +63,8 @@ h1,h2,h3,h4,h5,h6,ul,p{
 display:flex;
 align-items: center;
 
+
+
 }
 
 .list-heder{
@@ -258,6 +260,9 @@ border-left: 1px solid #EEE;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+
+
+   
    
 }
 
@@ -280,12 +285,12 @@ border-left: 1px solid #EEE;
 .icon-envelope{
     width: 16px;
     height: 12px;
-    fill:#757575 ;
+    color:#757575 ;
 }
  .icon-smartphone{
     width: 10px;
     height: 16px;
-    fill: #757575 ;
+    color: #757575 ;
    
  }
 
@@ -544,7 +549,7 @@ img{
 
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+   color: #AFB1B8;
 
 }
 
