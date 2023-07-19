@@ -72,7 +72,8 @@ list-style: none;
 display:flex;
 align-items: center;
 margin-left: auto;
-gap: 50px;
+gap: 10px;
+
 
 
   }
@@ -167,6 +168,8 @@ gap: 50px;
     letter-spacing: 0.02em;
     color: #757575;
     display: block;
+
+  
    
    }
 
@@ -174,11 +177,6 @@ gap: 50px;
 
 
    
-.link-list-contacts.icon{
-    display: block;
-    color: #757575;
-    margin-right: 10px;
-}
 
 
 
@@ -293,17 +291,19 @@ border-left: 1px solid #EEE;
 .icon-envelope{
     width: 16px;
     height: 12px;
-    color:#757575 ;
+    fill:currentColor ;
 }
  .icon-smartphone{
     width: 10px;
     height: 16px;
-    color: #757575 ;
+    fill:currentColor ;
    
  }
+.icon-envelope:hover{
+    color: #2196F3;
+}
 
  
-
 
 .button-service{
    
@@ -432,7 +432,7 @@ img{
     padding-top: 30px;
     padding-bottom: 30px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    
+    background-color:#ffffff;
 }
 
 .list-comanda{
@@ -529,7 +529,8 @@ img{
 .sociallink {
     width: 44px;
     height: 44px;
-    background-color: #ffffff;
+    /*background-color:#ffffff;*/
+    color: #AFB1B8;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -544,7 +545,9 @@ img{
     padding-right:32px ;
 
 }
-
+.sociallink:hover{
+  background-color: #2196F3;
+}
 .social {
 
     margin-left: 10px;
@@ -557,13 +560,12 @@ img{
 
     width: 20px;
     height: 20px;
-   color: #AFB1B8;
+   fill: currentColor;
 
 }
 
 
-.icon-social:hover
-.icon-social:focus {
+.icon-social:hover {
     color: #2196F3;
 
 
