@@ -164,11 +164,11 @@ gap: 50px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    display: block;
 
-
-    display: flex;
-    flex-direction: row;
+    margin: auto;
    }
+
 
 
 
