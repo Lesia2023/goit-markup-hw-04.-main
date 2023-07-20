@@ -133,7 +133,7 @@ gap: 10px;
     margin-left:  30px;
     margin-bottom: 30px;
     flex-basis: calc(100%/3-30);
-     
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
     
 }
 
@@ -216,6 +216,9 @@ gap: 10px;
     display: flex;
     justify-content: center;
     margin-bottom:50px;
+
+   
+
 }
 
 .text {
@@ -328,12 +331,14 @@ border-left: 1px solid #EEE;
     gap: 8px;
     border-radius: 4px;
 
+    
 }
 
 .list-button:hover,
 .list-button:focus {
     color: var(--tetriory-color);
     background-color: var(--button-backround-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .list-title{
@@ -464,7 +469,7 @@ img{
     display: block;
     content: "";
     height: 120px;
-    background-size: 100px 25 px;
+    background-size: 100px 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #F5F4FA;
