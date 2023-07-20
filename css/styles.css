@@ -530,7 +530,7 @@ img{
     width: 44px;
     height: 44px;
     background-color:#ffffff;
-    color: #AFB1B8;
+    color:#AFB1B8;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -576,13 +576,6 @@ img{
 }
 
 
-
-
-
-
-
-
-
 .list-foto{
      width: 370px;
 
@@ -624,7 +617,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#AFB1B8 ;
+    
 }
 
 .customer {
@@ -635,10 +628,10 @@ img{
 .logo-icon {
     width: 106px;
     height: 60px;
-    fill:currentColor;
+    color: #AFB1B8;
 }
 .logo-icon:hover{
-color: #2196F3;
+ fill: #2196F3;
 }
 
 
