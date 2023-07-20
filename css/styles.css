@@ -664,11 +664,10 @@ footer{
         display: flex;
         flex-direction: column;
 }
-.sociallink.accession{
+.sociallink-accession{
     background-color: rgba(255, 255, 255, 0.10);
     width: 44px;
     height: 44px;
-   
     color:#ffffff;
     border-radius: 50%;
     display: flex;
@@ -676,7 +675,6 @@ footer{
     align-items: center;
 
 }
-.sociallink.accession:hover {
-background-color:#2196F3 ;
-    
+.sociallink-accession:hover {
+    background-color: #2196F3;
 }
