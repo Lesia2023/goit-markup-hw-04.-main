@@ -609,7 +609,7 @@ img{
 }
 
 .customer-logo {
-
+  
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -617,7 +617,9 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
     color: #AFB1B8;
+    
 }
 
 .customer {
