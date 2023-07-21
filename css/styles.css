@@ -550,7 +550,8 @@ img{
     padding-right:32px ;
 
 }
-.sociallink:hover{
+.sociallink:hover,
+.sociallink:focus{
  background-color: #2196F3;
  
 }
@@ -573,7 +574,8 @@ img{
 .icon-social{
     fill:currentColor;
 }
-.icon-social:hover {
+.icon-social:hover,
+.icon-social:focus{
    
     color:#ffffff;
 
