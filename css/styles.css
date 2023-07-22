@@ -502,6 +502,7 @@ img{
     height: 600px;
     max-width: 1600px;
     background-image: url('../image-portfolio/fonn.jpg');
+    background-color:#2F303A;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
