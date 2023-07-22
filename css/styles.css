@@ -548,12 +548,18 @@ img{
 .social-list {
     display: flex;
     list-style: none;
-    
+    gap:10px;
 
 }
-.sociallink:hover,
-.sociallink:focus{
+.sociallink:hover{
  color: #ffffff;
+ background-color: #2196F3;
+}
+
+
+
+.sociallink:focus{
+color: #ffffff;
  background-color: #2196F3;
  
 }
@@ -562,7 +568,7 @@ img{
 .social {
 
     margin-left: 0px;
-
+  
 
 
 }
@@ -571,20 +577,16 @@ img{
 
     width: 20px;
     height: 20px;
-    color: #AFB1B8;
-
-}
-
-.icon-social{
     fill:currentColor;
+
 }
+
+
 
 .icon-social:hover,
 .icon-social:focus{
    
     color:#ffffff;
-
-
 }
 
 
@@ -700,4 +702,18 @@ footer{
 .sociallink-accession:hover {
     background-color: #2196F3;
 }
+.footer-accession{
+    
+    list-style: none;
+    display:flex;
+    
+    gap: 26px;
 
+}
+.footer-accession-now {
+
+    list-style: none;
+    display: flex;
+    gap: 60px;
+
+}
