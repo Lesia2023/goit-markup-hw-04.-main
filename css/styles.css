@@ -720,7 +720,7 @@ footer{
     
     list-style: none;
     display:block;
-    margin-left: 156px; 
+    margin-right:70px;
    
 }
 .footer-accession-now {
@@ -747,5 +747,5 @@ footer{
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom:20px ;
-
+   
 }
